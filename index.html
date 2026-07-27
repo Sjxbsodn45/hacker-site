@@ -1,99 +1,36 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BLACK NODE</title>
 
-<style>
-*{box-sizing:border-box}
+<title>❤️</title>
 
-body{
-margin:0;
-background:#020202;
-color:#00ff88;
-font-family:monospace;
-overflow:hidden
-}
+<link rel="stylesheet" href="style.css">
+</head>
 
-canvas{
-position:fixed;
-inset:0;
-z-index:-2
-}
+<body>
 
-body:after{
-content:"";
-position:fixed;
-inset:0;
-pointer-events:none;
-background:repeating-linear-gradient(
-0deg,
-rgba(255,255,255,.025) 0px,
-rgba(255,255,255,.025) 1px,
-transparent 1px,
-transparent 4px
-);
-z-index:10
-}
+<div id="hearts"></div>
 
-.container{
-min-height:100vh;
-display:flex;
-align-items:center;
-justify-content:center;
-padding:20px
-}
+<div class="card">
 
-.panel{
-width:100%;
-max-width:800px;
-padding:30px;
-background:rgba(0,0,0,.9);
-border:1px solid #00ff88;
-box-shadow:0 0 40px #00ff8844
-}
+<img src="dog.jpg" class="dog">
 
-.logo{
-text-align:center;
-font-size:28px;
-margin-bottom:25px;
-text-shadow:0 0 20px #00ff88
-}
+<h1 id="text">
+یه چیزی میخوام بهت بگم...
+</h1>
 
-input{
-width:100%;
-padding:15px;
-background:#000;
-border:1px solid #00ff88;
-color:#00ff88;
-font-family:monospace;
-font-size:16px;
-outline:none;
-text-align:center
-}
+<button id="nextBtn">
+بعدی ❤️
+</button>
 
-button{
-width:100%;
-margin-top:15px;
-padding:15px;
-background:transparent;
-border:1px solid #00ff88;
-color:#00ff88;
-font-family:monospace;
-font-size:16px;
-cursor:pointer
-}
+</div>
 
-button:hover{
-background:#00ff88;
-color:#000
-}
+<script src="script.js"></script>
 
-#login{
-display:block
-}
-
+</body>
+</html>
 #system{
 display:none
 }
